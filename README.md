@@ -4,7 +4,7 @@
 
 * I used Intellij IDE to develop this sample application.
 * Make sure you have Gradle installed because the sample application is a Gradle project.
-* Install lombok plugin for Intellij and enable Annotation Processing in the IDE's settings.
+* Install Project Lombok plugin for Intellij and enable Annotation Processing in the IDE's settings.
 
 ## App Dependencies
 
@@ -16,4 +16,4 @@
 
 ## Testing the application
 
-* To test each feature of lombok you have to uncomment its test method in the main class.
+* To test each feature of Project Lombok you have to uncomment its test method in the main class.
