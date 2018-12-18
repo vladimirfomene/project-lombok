@@ -12,10 +12,7 @@
 
 ## Running the app
 
-* You can run the project from your IDE or the terminal by issuing the command:
-```bash
-./gradlew bootRun
-```
+* You can run the project from your IDE's run menu.
 
 ## Testing the application
 
