@@ -3,7 +3,6 @@
 ## IDE And Tools
 
 * I used Intellij IDE to develop this sample application.
-* Make sure you have Gradle installed because the sample application is a Gradle project.
 * Install Project Lombok plugin for Intellij and enable Annotation Processing in the IDE's settings.
 
 ## App Dependencies
