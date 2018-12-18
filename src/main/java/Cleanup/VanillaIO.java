@@ -13,24 +13,14 @@ import java.io.OutputStream;
 public class VanillaIO {
 
     public VanillaIO() throws IOException {
-        InputStream in = new FileInputStream("input.txt");
-        try {
-            OutputStream out = new FileOutputStream("output.txt");
-            try {
+        try (InputStream in = new FileInputStream("input.txt")) {
+            try (OutputStream out = new FileOutputStream("output.txt")) {
                 byte[] b = new byte[10000];
                 while (true) {
                     int r = in.read(b);
                     if (r == -1) break;
                     out.write(b, 0, r);
                 }
-            } finally {
-                if (out != null) {
-                    out.close();
-                }
-            }
-        } finally {
-            if (in != null) {
-                in.close();
             }
         }
 
